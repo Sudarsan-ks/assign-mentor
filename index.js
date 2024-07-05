@@ -14,7 +14,7 @@ app.use(cors());
 
 
 app.get("/", (req, res)=>{
-  console.log("Welocome to Student and Mentor Allocation")
+  res.send("Welocome to Student and Mentor Allocation")
 })
 
 //1.Create a Mentor:
